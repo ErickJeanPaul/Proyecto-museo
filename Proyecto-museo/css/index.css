@@ -1,0 +1,88 @@
+/*   Title  and Description */
+#boxHeader{
+    display: flex;
+    background-color:#0F0E0E;
+}
+#title {
+    margin: 20px;
+    width: 50%;
+    color: red;
+}
+#description{
+    margin: 20px;
+    width: 50%;
+}
+.header{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.warning{
+    color:red;
+}
+
+/*   Browser */
+
+#browserList
+{
+    background-color:#541212;
+    display: flex; 
+    justify-content: center;    
+    
+}
+#browserList li
+{
+    padding: 1em; 
+    list-style: none;
+}
+#browserList li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:  Arial,Helvetica, sans-serif;
+    color: white;
+}
+
+
+/* box of artworks*/
+
+
+#containerBoxes
+{
+    display: flex;
+    margin: 5px;
+}
+.boxMain
+{
+    background-color: #8B9A46;
+    width: 45%;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+}
+.droptarget 
+{ 
+    width: 200px; 
+    height: 200px;
+    padding: 10px;
+    margin: 10px auto 10px auto; 
+    border: 8px solid #aaaaaa;
+}
+/*box of information*/
+.num1{
+    width: 200px;
+    height: 200px;
+}
+#boxDescriptionNum1{
+    width: 0%;
+    height: 0%;
+}
+.boxfirst{
+    background-color: #EEEEEE;
+}
+
+/* subTitles of Boxes*/
+.subTitulo{
+    text-align: center;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="javaScript/index.js"></script>
+    <script src="javaScript/picture.js"></script>
+</head>
+
+<body>
+    <!--Title and Description-->
+    <div id="boxHeader">
+        <div id="title">
+            <h1 class="header">MUSEUM EVIL</h1>
+        </div>
+        <div id="description">
+            <p class="header"><strong class="warning">WARNING </strong>This museum does not contain a <br>
+                responsible design nor is it accessible<strong class="warning"> WARNING</strong></p>
+        </div>
+    </div>
+    <!--Browser-->
+    <nav id="browser">
+        <ol id="browserList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Obras</a></li>
+            <li><a href="#">Ciudades</a></li>
+            <li><a href="#">Autores</a></li>
+        </ol>
+    </nav>
+
+    <!--boxes of artworks-->
+
+
+    <div id="containerBoxes" ;>
+        <div class="boxMain boxfirst" onmouseover="bigBox(this)" onmouseover="bigBox1(this)"
+            onmouseout="normalBox(this)">
+            <div class="droptarget">
+                <img class="num1" src="images/descarga.jpeg" alt="Smiley">
+            </div>
+            <div class="subTitulo" id="subTituloNum1">
+                <h2>subTitulo</h2>
+            </div>
+            <div id="boxDescriptionNum1">
+                <p id="descriptionNum1"></p>
+            </div>
+        </div>
+        <div class="boxMain" onmouseover="bigBox2(this)" onmouseout="normalBox2(this)">
+            <div class="droptarget">
+                <img class="num1" src="images/descarga.jpeg" alt="Smiley">
+            </div>
+            <div class="subTitulo" id="subTituloNum1">
+                <h2>subTitulo</h2>
+            </div>
+            <div id="boxDescriptionNum2">
+                <p id="descriptionNum2"></p>
+            </div>
+        </div>
+    </div>
+    <div id="containerBoxes" ;>
+        <div class="boxMain " onmouseover="bigBox3(this)" onmouseout="normalBox3(this)">
+            <div class="droptarget">
+                <img class="num1" src="images/descarga.jpeg" alt="Smiley">
+            </div>
+            <div class="subTitulo" id="subTituloNum1">
+                <h2>subTitulo</h2>
+            </div>
+            <div id="boxDescriptionNum3">
+                <p id="descriptionNum3"></p>
+            </div>
+        </div>
+        <div class="boxMain boxfirst" onmouseover="bigBox4(this)" onmouseout="normalBox4(this)">
+            <div class="droptarget">
+                <img class="num1" src="images/descarga.jpeg" alt="Smiley">
+            </div>
+            <div class="subTitulo" id="subTituloNum1">
+                <h2>subTitulo</h2>
+            </div>
+            <div id="boxDescriptionNum4">
+                <p id="descriptionNum4"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
